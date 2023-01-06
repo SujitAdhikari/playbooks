@@ -1,0 +1,4 @@
+- hosts: rhel8-7  
+  become: yes  
+  tasks:
+   - ping
