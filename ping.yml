@@ -1,4 +1,6 @@
-- name: ping check
-  hosts: rhel8-7
+- name: Hello World Sample
+  hosts: all
   tasks:
-    - ping
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
