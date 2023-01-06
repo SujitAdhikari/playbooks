@@ -1,5 +1,4 @@
 - name: ping check
-  become: yes
   hosts: rhel8-7
   tasks:
     - ping
